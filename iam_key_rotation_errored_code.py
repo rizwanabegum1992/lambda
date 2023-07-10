@@ -81,7 +81,7 @@ def lambda_handler(event, context):
                         if application_id == "xyz":
                             if email_id is not None and secret_name is not None and application_id is not None and environment is not None:
     
-                                key_id = "0885b3e2-a4ed-40ff-8062-a3192129604c"
+                                key_id = "99db2bd8-b54f-438a-8ca8-f4d21abb0d30"
                                 # Create new access key and secret key
                                 new_key = iam.create_access_key(UserName=user_name)['AccessKey']
                                 access_key_id = str(new_key['AccessKeyId'])
